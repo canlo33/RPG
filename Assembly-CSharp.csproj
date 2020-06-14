@@ -64,11 +64,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie_AttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie_ChasePlayerState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie_IdleState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie_WalkState.cs" />
     <Compile Include="Assets\Scripts\Enemies\State Machine\Entity.cs" />
     <Compile Include="Assets\Scripts\Enemies\State Machine\FiniteStateMachine.cs" />
     <Compile Include="Assets\Scripts\Enemies\State Machine\State.cs" />
+    <Compile Include="Assets\Scripts\Enemies\States\AttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\States\ChasePlayerState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\States\Data\Data_ChasePlayerState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\States\Data\Data_Entity.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\Data\Data_IdleState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\Data\Data_WalkState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\IdleState.cs" />

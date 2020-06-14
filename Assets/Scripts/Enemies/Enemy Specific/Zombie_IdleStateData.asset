@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268f18fa90bff014bb62572851dbcc19, type: 3}
   m_Name: Zombie_IdleStateData
   m_EditorClassIdentifier: 
-  minIdleDuration: 3
-  maxIdleDuration: 5
+  minIdleDuration: 5
+  maxIdleDuration: 8

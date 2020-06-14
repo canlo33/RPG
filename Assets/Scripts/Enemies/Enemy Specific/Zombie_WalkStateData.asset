@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43f42e6141dd1894bbf8bc571d5d3554, type: 3}
   m_Name: Zombie_WalkStateData
   m_EditorClassIdentifier: 
-  movementSpeed: 0.5
+  movementSpeed: 1

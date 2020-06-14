@@ -11,20 +11,17 @@ public class IdleState : State
     {
         this.stateData = stateData;
     }
-
     public override void Enter()
     {
         base.Enter();
-        entity.SetVelocity(0);
+        entity.rb.velocity = Vector3.zero;
         isIdleTimeOver = false;
         SetRandomIdleDuration();
     }
-
     public override void Exit()
     {
         base.Exit();
     }
-
     public override void LogicUpdate()
     {
         base.LogicUpdate();
@@ -33,12 +30,10 @@ public class IdleState : State
             isIdleTimeOver = true;
         }
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
     }
-
     public void SetRandomIdleDuration()
     {
         idleDuration = Random.Range(stateData.minIdleDuration, stateData.maxIdleDuration);

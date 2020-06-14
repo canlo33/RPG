@@ -5,6 +5,9 @@ using UnityEngine;
 public class WalkState : State
 {
     protected Data_WalkState stateData;
+    protected Vector3 patrolPoint;
+
+
     public WalkState(FiniteStateMachine stateMachine, Entity entity, string animationName, Data_WalkState stateData) : base(stateMachine, entity, animationName)
     {
         this.stateData = stateData;        
@@ -13,8 +16,8 @@ public class WalkState : State
     public override void Enter()
     {
         base.Enter();
-        entity.SetVelocity(stateData.movementSpeed);
-        //TODO: Pick a random patrol point.
+        patrolPoint = entity.Patrol();
+        entity.transform.LookAt(patrolPoint);
     }
 
     public override void Exit()
@@ -24,17 +27,18 @@ public class WalkState : State
 
     public override void LogicUpdate()
     {
-        base.LogicUpdate();
-
+        base.LogicUpdate();        
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
+        entity.GoTo(stateData.movementSpeed);
     }
 
-    public virtual void Patrol()
+    public override void BoolChecks()
     {
-        
+        base.BoolChecks();
     }
+
 }

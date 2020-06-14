@@ -23,13 +23,26 @@ public class Zombie_WalkState : WalkState
 
     public override void LogicUpdate()
     {
-        base.LogicUpdate();
+        base.LogicUpdate();        
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-    }
+        if (isDetectingWall || !isDetectingLedge)
+        {
+            stateMachine.ChangeState(zombie.idleState);
+        }
+        else if (isPlayerInMinAgroRange)
+        {
+            stateMachine.ChangeState(zombie.chasePlayerState);
+        }
 
+        else if (Vector3.Distance(entity.transform.position, patrolPoint) <= 0.3f)
+        {
+            stateMachine.ChangeState(zombie.idleState);
+        }
+    }
+      
     
 }

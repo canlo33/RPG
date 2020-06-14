@@ -7,7 +7,13 @@ public class State
     protected FiniteStateMachine stateMachine;
     protected Entity entity;
     protected float startTime;
+    protected float animationTime;
     protected string animationName;
+    protected bool isDetectingWall;
+    protected bool isDetectingLedge;
+    protected bool isPlayerInMinAgroRange;
+    protected bool isPlayerInMaxAgroRange;
+    protected bool isPlayerInAttackRange;
 
     public State(FiniteStateMachine stateMachine, Entity entity , string animationName)
     {
@@ -20,6 +26,7 @@ public class State
     {
         startTime = Time.time;
         entity.animator.SetBool(animationName, true);
+        BoolChecks();
     }
     public virtual void Exit()
     {
@@ -32,7 +39,16 @@ public class State
     }
     public virtual void PhysicsUpdate()
     {
+        BoolChecks();
+    }
 
+    public virtual void BoolChecks()
+    {
+        isDetectingLedge = entity.IsDetectingLedge();
+        isDetectingWall = entity.IsDetectingWall();
+        isPlayerInMinAgroRange = entity.IsPlayerInMinAgroRange();
+        isPlayerInMaxAgroRange = entity.IsPlayerInMaxAgroRange();
+        isPlayerInAttackRange = entity.IsPlayerInAttackRange();
     }
 
 }

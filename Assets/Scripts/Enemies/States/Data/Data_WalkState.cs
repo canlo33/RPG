@@ -6,6 +6,5 @@ using UnityEngine;
 public class Data_WalkState : ScriptableObject
 {
     public float movementSpeed = 3f;
-    public float patrolRange = 5f;
  
 }

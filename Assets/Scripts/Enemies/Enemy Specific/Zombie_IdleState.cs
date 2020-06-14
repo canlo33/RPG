@@ -28,6 +28,10 @@ public class Zombie_IdleState : IdleState
         {
             stateMachine.ChangeState(zombie.walkState);
         }
+        else if(isPlayerInMinAgroRange)
+        {
+            stateMachine.ChangeState(zombie.chasePlayerState);
+        }
     }
 
     public override void PhysicsUpdate()
