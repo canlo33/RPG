@@ -17,7 +17,6 @@ public class test : MonoBehaviour
         targetPosition = GameObject.Find("Player").transform.position;
         startPosition = transform.position;
         patrolPoint = new Vector3(Random.Range(startPosition.x - patrolRange, startPosition.x + patrolRange), 0f, Random.Range(startPosition.z - patrolRange, startPosition.z + patrolRange));
-        Debug.Log(patrolPoint);
     }
 
     // Update is called once per frame

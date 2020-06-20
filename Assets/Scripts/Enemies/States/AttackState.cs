@@ -16,6 +16,7 @@ public class AttackState : State
     public override void Enter()
     {
         base.Enter();
+        entity.transform.LookAt(new Vector3(entity.player.position.x, entity.transform.position.y, entity.player.position.z));
     }
 
     public override void Exit()
@@ -26,11 +27,11 @@ public class AttackState : State
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+ 
     }
 
     public override void PhysicsUpdate()
     {
-        base.PhysicsUpdate();
-        
+        base.PhysicsUpdate();        
     }
 }
