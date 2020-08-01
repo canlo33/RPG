@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
     {
         if (horizontalMovement != 0)
         {
-            transform.Rotate(0f, horizontalMovement * rotationSpeed * Time.fixedDeltaTime, 0f);
+            transform.Rotate(0f, horizontalMovement * rotationSpeed * speed / 2* Time.fixedDeltaTime, 0f);
         }
         else return;
     }

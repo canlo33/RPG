@@ -37,11 +37,10 @@ public class Zombie_AttackState : AttackState
 
         else if (Time.time >= startTime + entity.animator.GetCurrentAnimatorStateInfo(0).length)
         {
-            playerHealthSystem.Damage(entity.entityData.attackDamage);
+            playerHealthSystem.Damage(zombie.attackStateData.basicAttackDamage);
             if (isPlayerInAttackRange)
             {
                 stateMachine.ChangeState(zombie.attackState);
-
             }
             else
             {

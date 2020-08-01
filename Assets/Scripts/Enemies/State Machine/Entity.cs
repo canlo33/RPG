@@ -10,20 +10,11 @@ public class Entity : MonoBehaviour
     public Animator animator { get; private set; }
     public HealthSystem healthSystem { get; private set; }
     public Vector3 StartPosition { get => startPosition; set => startPosition = value; }
-
     public Data_Entity entityData;
     [SerializeField]
     private Transform ledgeCheck;
     [SerializeField]
     private Transform wallCheck;
-    [SerializeField]
-    private Transform enemySelected;
-    [SerializeField]
-    private Transform targetMark;
-    [SerializeField]
-    private GameObject mobInfo;
-    private TextMeshProUGUI mobNameText;
-    public bool isEnemyClicked = false;   
     private Vector3 startPosition;
     public Transform player;
     
@@ -31,12 +22,11 @@ public class Entity : MonoBehaviour
     public virtual void Start()
     {
         rb = GetComponent<Rigidbody>();
-        animator = GetComponent<Animator>();
+        animator = GetComponentInChildren<Animator>();
         stateMachine = new FiniteStateMachine();
         StartPosition = transform.position;
         player = GameObject.Find("Player").transform;
-        healthSystem = new HealthSystem(entityData.maxHealth);
-        mobNameText = mobInfo.GetComponentInChildren<TextMeshProUGUI>();       
+        healthSystem = new HealthSystem(entityData.maxHealth);      
 
     }
 
@@ -55,10 +45,10 @@ public class Entity : MonoBehaviour
     public virtual Vector3 Patrol()
     {        
        Vector3 patrolPoint = new Vector3(Random.Range(StartPosition.x - entityData.patrolRange, StartPosition.x + entityData.patrolRange), 0f, Random.Range(StartPosition.z - entityData.patrolRange, StartPosition.z + entityData.patrolRange));
-        while (Vector3.Distance(transform.position, patrolPoint) <= 3f)
+        while (Vector3.Distance(transform.position, patrolPoint) <= 5f)
             {
                 patrolPoint = new Vector3(Random.Range(StartPosition.x - entityData.patrolRange, StartPosition.x + entityData.patrolRange), 0f, Random.Range(StartPosition.z - entityData.patrolRange, StartPosition.z + entityData.patrolRange));
-            }        
+            }
         return patrolPoint;
         
     }    
@@ -96,15 +86,7 @@ public class Entity : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, entityData.attackRange);
 
     }
-    private void OnMouseDown()
-    {
-        mobInfo.SetActive(true);
-        mobNameText.text = entityData.mobName;
-        enemySelected.gameObject.SetActive(true);
-        targetMark.gameObject.SetActive(true);
-        enemySelected.LookAt(Camera.main.transform.position);
-    }
-    
+   
 
 
 }

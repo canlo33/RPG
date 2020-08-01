@@ -63,6 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets\Enemies\Evil Wizard\Environment\Scripts\CamCTRLDemo.cs" />
+    <Compile Include="Assets\Assets\Enemies\Evil Wizard\Environment\Scripts\MoveCTRLDemo.cs" />
+    <Compile Include="Assets\Assets\Enemies\Skeleton\Script\Character\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_AttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_ChasePlayerState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_DieState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_IdleState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_WalkState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie\Zombie.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie\Zombie_AttackState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie\Zombie_ChasePlayerState.cs" />
@@ -74,6 +83,7 @@
     <Compile Include="Assets\Scripts\Enemies\State Machine\State.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\AttackState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\ChasePlayerState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\States\Data\Data_AttackState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\Data\Data_ChasePlayerState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\Data\Data_Entity.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\Data\Data_IdleState.cs" />
@@ -81,53 +91,57 @@
     <Compile Include="Assets\Scripts\Enemies\States\DieState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\IdleState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\WalkState.cs" />
+    <Compile Include="Assets\Scripts\GameMaster.cs" />
     <Compile Include="Assets\Scripts\HealthSystem.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\test.cs" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Assets\Enemies\Rhinosaur\Sheder\StandardDoubleSided.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Assets\Enemies\Evil Wizard\READ ME(wizard)\character setup guide link.txt" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Assets\Enemies\Troll\shaders\Standard Two Sided Soft Blend.shader" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Assets\UI\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Crossair/Documents/Unity/RPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Laptop-36651/Documents/Unity Projects/RPG/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

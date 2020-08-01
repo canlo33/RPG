@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ad403e0e70e50cf4bacfad2137ac72ba
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - entityData: {instanceID: 0}
+  - ledgeCheck: {instanceID: 0}
+  - wallCheck: {instanceID: 0}
+  - enemySelected: {instanceID: 0}
+  - targetMark: {instanceID: 0}
+  - mobInfo: {fileID: 8857112862256106887, guid: a729db9777b307a45982a13e72cc7996,
+      type: 3}
+  - player: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

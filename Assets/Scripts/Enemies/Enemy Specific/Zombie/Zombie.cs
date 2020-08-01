@@ -17,6 +17,8 @@ public class Zombie : Entity
     private Data_IdleState idleStateData;
     [SerializeField]
     private Data_ChasePlayerState chasePlayerStateData;
+    [SerializeField]
+    public Data_AttackState attackStateData;
 
 
     public override void Start()

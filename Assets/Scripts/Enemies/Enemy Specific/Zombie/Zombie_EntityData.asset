@@ -9,18 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbb35df7036ce1d44b279fcec45f5d46, type: 3}
+  m_Script: {fileID: 11500000, guid: f2a36a2637c1fe1409fb7c282ddde759, type: 3}
   m_Name: Zombie_EntityData
   m_EditorClassIdentifier: 
-  mobName: Zombie
+  mobName: Please Name Me
   patrolRange: 5
-  wallCheckDistance: 2
+  wallCheckDistance: 1
   ledgeCheckDistance: 0.2
   minAgroRange: 5
-  maxAgroRange: 12
+  maxAgroRange: 10
   attackRange: 2
   attackDamage: 10
-  maxHealth: 300
+  maxHealth: 100
   ground:
     serializedVersion: 2
     m_Bits: 256

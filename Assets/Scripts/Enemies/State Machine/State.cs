@@ -53,6 +53,7 @@ public class State
         isPlayerInMinAgroRange = entity.IsPlayerInMinAgroRange();
         isPlayerInMaxAgroRange = entity.IsPlayerInMaxAgroRange();
         isPlayerInAttackRange = entity.IsPlayerInAttackRange();
+        entity.animator.SetInteger("animationID", animationID);
     }
 
 }
