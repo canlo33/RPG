@@ -5,7 +5,7 @@ using UnityEngine;
 public class GreenSpider_AttackState : AttackState
 {
     private GreenSpider greenSpider;
-    public GreenSpider_AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName, GreenSpider greenSpider) : base(stateMachine, entity, animationName)
+    public GreenSpider_AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName, Data_AttackState stateData, GreenSpider greenSpider) : base(stateMachine, entity, animationName, stateData)
     {
         this.greenSpider = greenSpider;
     }
@@ -28,19 +28,13 @@ public class GreenSpider_AttackState : AttackState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (isEnemyDead)
+        EnemyHasDied(greenSpider.dieState);
+        if (Time.time >= startTime + entity.animator.GetCurrentAnimatorStateInfo(0).length)
         {
-            stateMachine.ChangeState(greenSpider.dieState);
-            return;
-        }
-
-        else if (Time.time >= startTime + entity.animator.GetCurrentAnimatorStateInfo(0).length)
-        {
-            playerHealthSystem.Damage(greenSpider.attackStateData.basicAttackDamage);
+            playerHealthSystem.Damage(stateData.basicAttackDamage);            
             if (isPlayerInAttackRange)
             {
                 stateMachine.ChangeState(greenSpider.attackState);
-
             }
             else
             {

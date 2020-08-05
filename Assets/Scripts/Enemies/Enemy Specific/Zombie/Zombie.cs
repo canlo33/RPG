@@ -18,7 +18,7 @@ public class Zombie : Entity
     [SerializeField]
     private Data_ChasePlayerState chasePlayerStateData;
     [SerializeField]
-    public Data_AttackState attackStateData;
+    private Data_AttackState attackStateData;
 
 
     public override void Start()
@@ -27,7 +27,7 @@ public class Zombie : Entity
         walkState = new Zombie_WalkState(stateMachine, this, "walk", walkStateData, this);
         idleState = new Zombie_IdleState(stateMachine, this, "idle", idleStateData, this);        
         chasePlayerState = new Zombie_ChasePlayerState(stateMachine, this, "run", chasePlayerStateData, this);
-        attackState = new Zombie_AttackState(stateMachine, this, "attack", this);
+        attackState = new Zombie_AttackState(stateMachine, this, "attack", attackStateData, this);
         dieState = new Zombie_DieState(stateMachine, this, "die", this);
         stateMachine.Initialize(idleState);
     }

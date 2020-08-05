@@ -773,7 +773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 367063680825478177}
   - component: {fileID: 3693879278498889267}
-  - component: {fileID: 3693879278498889264}
+  - component: {fileID: 5922567322879839587}
   m_Layer: 0
   m_Name: GFX
   m_TagString: Untagged
@@ -816,19 +816,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!65 &3693879278498889264
-BoxCollider:
+--- !u!136 &5922567322879839587
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3693879278498889266}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: cba4bb2aa1e4f984fa0e2bab43f21f32, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.3698177, y: 1.8287414, z: 1.2773438}
-  m_Center: {x: 0.076857254, y: 0.9024026, z: 0.37795705}
+  m_Radius: 0.49782765
+  m_Height: 2.1464279
+  m_Direction: 1
+  m_Center: {x: 0.030817747, y: 1.0454344, z: 0.11311638}
 --- !u!1 &3943652435236428172
 GameObject:
   m_ObjectHideFlags: 0

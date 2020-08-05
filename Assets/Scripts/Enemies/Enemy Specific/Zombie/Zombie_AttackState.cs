@@ -5,7 +5,7 @@ using UnityEngine;
 public class Zombie_AttackState : AttackState
 {
     private Zombie zombie;
-    public Zombie_AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName, Zombie zombie) : base(stateMachine, entity, animationName)
+    public Zombie_AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName,Data_AttackState stateData, Zombie zombie) : base(stateMachine, entity, animationName, stateData)
     {
         this.zombie = zombie;
     }
@@ -18,26 +18,18 @@ public class Zombie_AttackState : AttackState
     public override void Enter()
     {
         base.Enter();
-
     }
-
     public override void Exit()
     {
         base.Exit();
     }
-
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (isEnemyDead)
+        EnemyHasDied(zombie.dieState);
+        if (Time.time >= startTime + entity.animator.GetCurrentAnimatorStateInfo(0).length)
         {
-            stateMachine.ChangeState(zombie.dieState);
-            return;
-        }
-
-        else if (Time.time >= startTime + entity.animator.GetCurrentAnimatorStateInfo(0).length)
-        {
-            playerHealthSystem.Damage(zombie.attackStateData.basicAttackDamage);
+            playerHealthSystem.Damage(stateData.basicAttackDamage);
             if (isPlayerInAttackRange)
             {
                 stateMachine.ChangeState(zombie.attackState);

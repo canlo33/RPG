@@ -17,14 +17,14 @@ public class GreenSpider : Entity
     [SerializeField]
     private Data_ChasePlayerState chasePlayerStateData;
     [SerializeField]
-    public Data_AttackState attackStateData;
+    private Data_AttackState attackStateData;
     public override void Start()
     {
         base.Start();
         walkState = new GreenSpider_WalkState(stateMachine, this, "walk", walkStateData, this);
         idleState = new GreenSpider_IdleState(stateMachine, this, "idle", idleStateData, this);
         chasePlayerState = new GreenSpider_ChasePlayerState(stateMachine, this, "run", chasePlayerStateData, this);
-        attackState = new GreenSpider_AttackState(stateMachine, this, "attack", this);
+        attackState = new GreenSpider_AttackState(stateMachine, this, "attack",attackStateData, this);
         dieState = new GreenSpider_DieState(stateMachine, this, "die", this);
         stateMachine.Initialize(idleState);
     }

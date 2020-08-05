@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class AttackState : State
 {
-    public AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName) : base(stateMachine, entity, animationName)
+    protected Data_AttackState stateData;
+    public AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName, Data_AttackState stateData) : base(stateMachine, entity, animationName)
     {
+        this.stateData = stateData;
     }
 
     public override void BoolChecks()

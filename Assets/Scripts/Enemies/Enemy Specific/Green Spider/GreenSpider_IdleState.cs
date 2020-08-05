@@ -28,14 +28,8 @@ public class GreenSpider_IdleState : IdleState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-
-        if (isEnemyDead)
-        {
-            stateMachine.ChangeState(greenSpider.dieState);
-            return;
-        }
-
-        else if (isIdleTimeOver)
+        EnemyHasDied(greenSpider.dieState);
+        if (isIdleTimeOver)
         {
             stateMachine.ChangeState(greenSpider.walkState);
         }

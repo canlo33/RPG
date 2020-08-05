@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Zombie_DieState : DieState
 {
-    // Start is called before the first frame update
+    private Zombie zombie;
     public Zombie_DieState(FiniteStateMachine stateMachine, Entity entity, string animationName, Zombie zombie) : base(stateMachine, entity, animationName)
     {
+        this.zombie = zombie;
     }
 
     public override void BoolChecks()
@@ -29,6 +30,7 @@ public class Zombie_DieState : DieState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+        EnemyHasDied(zombie.dieState);
         if (Time.time >= startTime + entity.animator.GetCurrentAnimatorStateInfo(0).length)
         {
             entity.animator.enabled = false;

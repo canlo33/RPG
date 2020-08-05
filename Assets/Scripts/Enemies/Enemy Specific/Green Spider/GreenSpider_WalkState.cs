@@ -28,11 +28,7 @@ public class GreenSpider_WalkState : WalkState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (isEnemyDead)
-        {
-            stateMachine.ChangeState(greenSpider.dieState);
-            return;
-        }
+        EnemyHasDied(greenSpider.dieState);
     }
 
     public override void PhysicsUpdate()

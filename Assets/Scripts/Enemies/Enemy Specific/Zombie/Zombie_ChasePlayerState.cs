@@ -9,33 +9,23 @@ public class Zombie_ChasePlayerState : ChasePlayerState
     {
         this.zombie = zombie;
     }
-
     public override void BoolChecks()
     {
         base.BoolChecks();
     }
-
     public override void Enter()
     {
         base.Enter();
     }
-
     public override void Exit()
     {
         base.Exit();
     }
-
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (isEnemyDead)
-        {
-            stateMachine.ChangeState(zombie.dieState);
-            return;
-        }
-
+        EnemyHasDied(zombie.dieState);
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
@@ -48,6 +38,6 @@ public class Zombie_ChasePlayerState : ChasePlayerState
             entity.rb.velocity = Vector3.zero;
             stateMachine.ChangeState(zombie.idleState);
         }
-
+        
     }
 }

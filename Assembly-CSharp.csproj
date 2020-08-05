@@ -72,6 +72,12 @@
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_DieState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_IdleState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Green Spider\GreenSpider_WalkState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Skeleton\Skeleton.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Skeleton\Skeleton_AttackState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Skeleton\Skeleton_ChasePlayerState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Skeleton\Skeleton_DieState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Skeleton\Skeleton_IdleState.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Skeleton\Skeleton_WalkState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie\Zombie.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie\Zombie_AttackState.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy Specific\Zombie\Zombie_ChasePlayerState.cs" />

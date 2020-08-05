@@ -16,8 +16,7 @@ public class Entity : MonoBehaviour
     [SerializeField]
     private Transform wallCheck;
     private Vector3 startPosition;
-    public Transform player;
-    
+    public Transform player;  
  
     public virtual void Start()
     {
@@ -26,8 +25,7 @@ public class Entity : MonoBehaviour
         stateMachine = new FiniteStateMachine();
         StartPosition = transform.position;
         player = GameObject.Find("Player").transform;
-        healthSystem = new HealthSystem(entityData.maxHealth);      
-
+        healthSystem = new HealthSystem(entityData.maxHealth);
     }
 
     public virtual void Update()
@@ -49,8 +47,7 @@ public class Entity : MonoBehaviour
             {
                 patrolPoint = new Vector3(Random.Range(StartPosition.x - entityData.patrolRange, StartPosition.x + entityData.patrolRange), 0f, Random.Range(StartPosition.z - entityData.patrolRange, StartPosition.z + entityData.patrolRange));
             }
-        return patrolPoint;
-        
+        return patrolPoint;        
     }    
     public virtual bool IsDetectingLedge()
     {

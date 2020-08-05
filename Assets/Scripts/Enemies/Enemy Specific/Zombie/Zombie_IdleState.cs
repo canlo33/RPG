@@ -7,7 +7,7 @@ public class Zombie_IdleState : IdleState
     private Zombie zombie;
     public Zombie_IdleState(FiniteStateMachine stateMachine, Entity entity, string animationName, Data_IdleState stateData, Zombie zombie) : base(stateMachine, entity, animationName, stateData)
     {
-        this.zombie = zombie;
+        this.zombie = zombie;        
     }
 
     public override void Enter()
@@ -23,14 +23,8 @@ public class Zombie_IdleState : IdleState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-
-        if (isEnemyDead)
-        {
-            stateMachine.ChangeState(zombie.dieState);
-            return;
-        }
-
-        else if (isIdleTimeOver)
+        EnemyHasDied(zombie.dieState);
+        if (isIdleTimeOver)
         {
             stateMachine.ChangeState(zombie.walkState);
         }

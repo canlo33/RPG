@@ -25,7 +25,6 @@ public class State
         this.animationName = animationName;
         playerHealthSystem = entity.player.GetComponent<PlayerController>().healthSystem;
     }
-
     public virtual void Enter()
     {
         startTime = Time.time;
@@ -36,16 +35,14 @@ public class State
     {
         entity.animator.SetBool(animationName, false);
     }
-
     public virtual void LogicUpdate()
     {
-        isEnemyDead = entity.IsEnemyDead();
+        isEnemyDead = entity.IsEnemyDead();        
     }
     public virtual void PhysicsUpdate()
     {
         BoolChecks();
     }
-
     public virtual void BoolChecks()
     {
         isDetectingLedge = entity.IsDetectingLedge();
@@ -54,6 +51,14 @@ public class State
         isPlayerInMaxAgroRange = entity.IsPlayerInMaxAgroRange();
         isPlayerInAttackRange = entity.IsPlayerInAttackRange();
         entity.animator.SetInteger("animationID", animationID);
+    }
+    public virtual void EnemyHasDied(State state)
+    {
+        if (isEnemyDead)
+        {
+            stateMachine.ChangeState(state);            
+            return;
+        }
     }
 
 }
