@@ -3,7 +3,7 @@
   <TypeDate>
     <guid>fb6613337b8b1f64880211722162b17a</guid>
     <fileName>Assets/Assets/Effects/FantasySpellsEffectsPack/Scripts/Move/MoveToObject.cs</fileName>
-    <timeStamp>2020-08-25T18:24:29.7264675-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>MoveToObject</string>
     </typeFullName>
@@ -12,7 +12,7 @@
   <TypeDate>
     <guid>e82eaa20a82cf85409597ea516d6ca1f</guid>
     <fileName>Assets/Assets/Effects/FantasySpellsEffectsPack/Scripts/Object/Material_Change.cs</fileName>
-    <timeStamp>2020-08-25T18:24:29.73135-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Material_Change</string>
     </typeFullName>
@@ -21,7 +21,7 @@
   <TypeDate>
     <guid>b9780aff71e30824fa3ed7c172220fa8</guid>
     <fileName>Assets/Assets/Effects/FantasySpellsEffectsPack/Scripts/Object/MultiObjectMake.cs</fileName>
-    <timeStamp>2020-08-25T18:24:29.7333037-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>MultiObjectMake</string>
     </typeFullName>
@@ -30,7 +30,7 @@
   <TypeDate>
     <guid>00e8b479d82e65f4287911f372e02e89</guid>
     <fileName>Assets/Assets/Effects/FantasySpellsEffectsPack/Scripts/Object/RotateObject.cs</fileName>
-    <timeStamp>2020-08-25T18:24:29.7342805-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>RotateObject</string>
     </typeFullName>
@@ -39,7 +39,7 @@
   <TypeDate>
     <guid>d90f358e0f0235242a422a856b10775e</guid>
     <fileName>Assets/Assets/Effects/FantasySpellsEffectsPack/Scripts/Object/SimpleObjectMake.cs</fileName>
-    <timeStamp>2020-08-25T18:24:29.7352567-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>SimpleObjectMake</string>
     </typeFullName>
@@ -48,7 +48,7 @@
   <TypeDate>
     <guid>e803bb040f18cf94c914365835aeb259</guid>
     <fileName>Assets/Assets/Effects/FantasySpellsEffectsPack/Scripts/Object/_ObjectMakeBase.cs</fileName>
-    <timeStamp>2020-08-25T18:24:29.7293969-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>_ObjectMakeBase</string>
     </typeFullName>
@@ -57,43 +57,43 @@
   <TypeDate>
     <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
     <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
-    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName />
   </TypeDate>
   <TypeDate>
     <guid>805140a4856714e288ea84985d3023df</guid>
     <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
-    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName />
   </TypeDate>
   <TypeDate>
     <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
     <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
-    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName />
   </TypeDate>
   <TypeDate>
     <guid>0d05386265df34bac8d0b6df44aa494c</guid>
     <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
-    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName />
   </TypeDate>
   <TypeDate>
     <guid>74eec3bfba0594259ac2843353c082a3</guid>
     <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
-    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName />
   </TypeDate>
   <TypeDate>
     <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
     <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
-    <timeStamp>2015-12-09T13:51:26-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName />
   </TypeDate>
   <TypeDate>
     <guid>fc062d83bb404544b902f8112ff22c87</guid>
     <fileName>Assets/Scripts/HealthSystem.cs</fileName>
-    <timeStamp>2021-03-01T02:38:19.5811513-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>HealthSystem</string>
     </typeFullName>
@@ -102,7 +102,7 @@
   <TypeDate>
     <guid>43b44489d2cba1d4fa55a48f510f6904</guid>
     <fileName>Assets/Scripts/PlayEffect.cs</fileName>
-    <timeStamp>2021-06-03T06:12:57.8183382-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>PlayEffect</string>
     </typeFullName>
@@ -111,7 +111,7 @@
   <TypeDate>
     <guid>62d907edb2dae43418bf7d61a7399c94</guid>
     <fileName>Assets/Scripts/RandomIdleBehaviour.cs</fileName>
-    <timeStamp>2021-01-14T23:02:02.2057563-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>RandomIdleBehaviour</string>
     </typeFullName>
@@ -120,7 +120,7 @@
   <TypeDate>
     <guid>00c91f9f3f8cfb74a99885cc978c09b5</guid>
     <fileName>Assets/Scripts/Ability/AoeAbility.cs</fileName>
-    <timeStamp>2021-03-02T19:32:12.0229671-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>AoeAbility</string>
     </typeFullName>
@@ -129,7 +129,7 @@
   <TypeDate>
     <guid>cea9375e4cad8a5428b117640e7af258</guid>
     <fileName>Assets/Scripts/Ability/DestroyAfterExplosion.cs</fileName>
-    <timeStamp>2020-09-24T16:17:19.9876573-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>DestroyAfterExplosion</string>
     </typeFullName>
@@ -138,7 +138,7 @@
   <TypeDate>
     <guid>28e0f3ded99970b4189ef5c9a727df1c</guid>
     <fileName>Assets/Scripts/Ability/TargetParticle.cs</fileName>
-    <timeStamp>2021-03-02T05:30:34.6520389-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>TargetParticle</string>
     </typeFullName>
@@ -147,7 +147,7 @@
   <TypeDate>
     <guid>1722df4e1edc3a8418adb8be915e0632</guid>
     <fileName>Assets/Scripts/Ability/ScriptableObject/Ability.cs</fileName>
-    <timeStamp>2021-06-05T10:36:48.2335857-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Ability</string>
     </typeFullName>
@@ -156,7 +156,7 @@
   <TypeDate>
     <guid>2f4eb219f74e9d74587325997a10edd3</guid>
     <fileName>Assets/Scripts/Enemies/DamageAfterCollision.cs</fileName>
-    <timeStamp>2021-06-05T17:42:07.2107852-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>DamageAfterCollision</string>
     </typeFullName>
@@ -165,7 +165,7 @@
   <TypeDate>
     <guid>f324c3d97611c374ab78510b5c567f58</guid>
     <fileName>Assets/Scripts/Enemies/LootTable.cs</fileName>
-    <timeStamp>2020-11-16T17:14:37.2550018-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>LootTable</string>
       <string>Loot</string>
@@ -175,7 +175,7 @@
   <TypeDate>
     <guid>c8f2e7d3714554c45a836ffc954bd884</guid>
     <fileName>Assets/Scripts/Enemies/RespownAfterDeath.cs</fileName>
-    <timeStamp>2021-06-05T18:58:42.9523628-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>RespownAfterDeath</string>
     </typeFullName>
@@ -184,7 +184,7 @@
   <TypeDate>
     <guid>78c67154842f99d45a24c0dae52aff19</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Green Spider/GreenSpider.cs</fileName>
-    <timeStamp>2021-01-13T23:40:25.1124838-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>GreenSpider</string>
     </typeFullName>
@@ -193,7 +193,7 @@
   <TypeDate>
     <guid>242411be9a1d61247a4d0378f2f15076</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Green Spider/GreenSpider_AttackState.cs</fileName>
-    <timeStamp>2021-03-11T11:28:19.0790569-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>GreenSpider_AttackState</string>
     </typeFullName>
@@ -202,7 +202,7 @@
   <TypeDate>
     <guid>2f41137a114252c4d8f6051b17ff1ddc</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Green Spider/GreenSpider_ChasePlayerState.cs</fileName>
-    <timeStamp>2021-01-27T21:57:16.8286287-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>GreenSpider_ChasePlayerState</string>
     </typeFullName>
@@ -211,7 +211,7 @@
   <TypeDate>
     <guid>5742f143f9e9a5d438b1ebd45c5e4ba2</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Green Spider/GreenSpider_DieState.cs</fileName>
-    <timeStamp>2020-11-14T04:28:42.3525521-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>GreenSpider_DieState</string>
     </typeFullName>
@@ -220,7 +220,7 @@
   <TypeDate>
     <guid>28050a11d5303df468fea8b30f3bece8</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Green Spider/GreenSpider_IdleState.cs</fileName>
-    <timeStamp>2021-01-29T04:56:49.8418353-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>GreenSpider_IdleState</string>
     </typeFullName>
@@ -229,7 +229,7 @@
   <TypeDate>
     <guid>52a11215eeae5674584dab0f34b93442</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Green Spider/GreenSpider_WalkState.cs</fileName>
-    <timeStamp>2021-01-29T05:02:29.4314468-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>GreenSpider_WalkState</string>
     </typeFullName>
@@ -238,7 +238,7 @@
   <TypeDate>
     <guid>e0bd8c7c9cf52b8479f30c77ba2f5dba</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Skeleton/Skeleton.cs</fileName>
-    <timeStamp>2021-02-08T14:44:10.2720158-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Skeleton</string>
     </typeFullName>
@@ -247,7 +247,7 @@
   <TypeDate>
     <guid>32f5b4404f926994e86f8ab6a7f965d4</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Skeleton/Skeleton_AttackState.cs</fileName>
-    <timeStamp>2021-03-07T10:45:02.9787373-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Skeleton_AttackState</string>
     </typeFullName>
@@ -256,7 +256,7 @@
   <TypeDate>
     <guid>c635658963d362543a0452d832d65593</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Skeleton/Skeleton_ChasePlayerState.cs</fileName>
-    <timeStamp>2021-01-28T04:03:18.3432029-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Skeleton_ChasePlayerState</string>
     </typeFullName>
@@ -265,7 +265,7 @@
   <TypeDate>
     <guid>49e66040884ef1c48b7caa6513403a13</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Skeleton/Skeleton_DieState.cs</fileName>
-    <timeStamp>2021-01-13T23:33:17.9686972-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Skeleton_DieState</string>
     </typeFullName>
@@ -274,7 +274,7 @@
   <TypeDate>
     <guid>87aad78daa4be8b4c865d872cd36282d</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Skeleton/Skeleton_IdleState.cs</fileName>
-    <timeStamp>2021-02-08T14:42:00.2725168-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Skeleton_IdleState</string>
     </typeFullName>
@@ -283,7 +283,7 @@
   <TypeDate>
     <guid>19907eaea6d7a6b4e86287740885065d</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Skeleton/Skeleton_WalkState.cs</fileName>
-    <timeStamp>2021-01-29T04:56:34.6754335-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Skeleton_WalkState</string>
     </typeFullName>
@@ -292,7 +292,7 @@
   <TypeDate>
     <guid>1fe2097d59336be4db138b722c6764d9</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan.cs</fileName>
-    <timeStamp>2021-03-06T20:29:41.5751244-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan</string>
     </typeFullName>
@@ -301,7 +301,7 @@
   <TypeDate>
     <guid>7fcdca22da082b24c96170b8c85386c5</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_AoeAttackState.cs</fileName>
-    <timeStamp>2021-02-11T20:44:41.6450546-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_AoeAttackState</string>
     </typeFullName>
@@ -310,7 +310,7 @@
   <TypeDate>
     <guid>32cbfab2403525f4a8397f15cd626cb9</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_ChasePlayerState.cs</fileName>
-    <timeStamp>2021-02-11T20:43:06.7683343-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_ChasePlayerState</string>
     </typeFullName>
@@ -319,7 +319,7 @@
   <TypeDate>
     <guid>04d63ed17cec674469e7fef5070d2ebe</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_CircleAroundState.cs</fileName>
-    <timeStamp>2021-06-02T05:37:31.780676-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_CircleAroundState</string>
     </typeFullName>
@@ -328,7 +328,7 @@
   <TypeDate>
     <guid>5e2ea72386e3f034cb5a811ff99842fe</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_ComboAttackState.cs</fileName>
-    <timeStamp>2021-02-11T20:43:45.757717-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_ComboAttackState</string>
     </typeFullName>
@@ -337,7 +337,7 @@
   <TypeDate>
     <guid>9dddb330aba9e0d448e32b803b5f9fb9</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_DieState.cs</fileName>
-    <timeStamp>2021-02-13T15:59:49.5183578-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_DieState</string>
     </typeFullName>
@@ -346,7 +346,7 @@
   <TypeDate>
     <guid>43ebb562e808e91488898fe81548faef</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_IdleState.cs</fileName>
-    <timeStamp>2021-03-06T21:43:52.5623537-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_IdleState</string>
     </typeFullName>
@@ -355,7 +355,7 @@
   <TypeDate>
     <guid>285d9459e3aa9ac4480bdcac7662a9c8</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_JumpAttackState.cs</fileName>
-    <timeStamp>2021-02-11T20:43:14.1176412-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_JumpAttackState</string>
     </typeFullName>
@@ -364,7 +364,7 @@
   <TypeDate>
     <guid>3ec2fcf4e4d11454bb501fac8a262839</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_RoarState.cs</fileName>
-    <timeStamp>2021-03-07T15:39:49.7420365-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_RoarState</string>
     </typeFullName>
@@ -373,7 +373,7 @@
   <TypeDate>
     <guid>73a3038f1bad8c84b9d15e3d90056ff6</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_SpinAttackState.cs</fileName>
-    <timeStamp>2021-02-11T20:43:41.7811965-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_SpinAttackState</string>
     </typeFullName>
@@ -382,7 +382,7 @@
   <TypeDate>
     <guid>4f5e2f16c5b51214580694901745215f</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_StunState.cs</fileName>
-    <timeStamp>2021-02-13T16:15:15.286962-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_StunState</string>
     </typeFullName>
@@ -391,7 +391,7 @@
   <TypeDate>
     <guid>77713e70828b1424a8f53802f33c4265</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Titan/Titan_WalkState.cs</fileName>
-    <timeStamp>2021-03-07T15:39:34.4120796-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Titan_WalkState</string>
     </typeFullName>
@@ -400,7 +400,7 @@
   <TypeDate>
     <guid>12a785a3042926545ac9120662cc1ec9</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Zombie/Zombie.cs</fileName>
-    <timeStamp>2021-06-05T16:58:00.7882691-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Zombie</string>
     </typeFullName>
@@ -409,7 +409,7 @@
   <TypeDate>
     <guid>3078c7e2678f24a45985a33c7866e69e</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Zombie/Zombie_AttackState.cs</fileName>
-    <timeStamp>2021-03-07T09:51:11.0896233-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Zombie_AttackState</string>
     </typeFullName>
@@ -418,7 +418,7 @@
   <TypeDate>
     <guid>d05ae1b5f32180c45a69338919e186ff</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Zombie/Zombie_ChasePlayerState.cs</fileName>
-    <timeStamp>2021-01-27T22:05:59.9690806-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Zombie_ChasePlayerState</string>
     </typeFullName>
@@ -427,7 +427,7 @@
   <TypeDate>
     <guid>27c5dd2e4d58c5040b71c2b2c7ac001d</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Zombie/Zombie_DieState.cs</fileName>
-    <timeStamp>2020-11-14T04:26:49.6838479-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Zombie_DieState</string>
     </typeFullName>
@@ -436,7 +436,7 @@
   <TypeDate>
     <guid>9b2f4fda6ff363041ba3e45cfe638605</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Zombie/Zombie_IdleState.cs</fileName>
-    <timeStamp>2021-01-29T04:43:06.4825971-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Zombie_IdleState</string>
     </typeFullName>
@@ -445,7 +445,7 @@
   <TypeDate>
     <guid>cdb33263256d6f442b4179ce148ec0d3</guid>
     <fileName>Assets/Scripts/Enemies/Enemy Specific/Zombie/Zombie_WalkState.cs</fileName>
-    <timeStamp>2021-01-29T04:56:24.4593585-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Zombie_WalkState</string>
     </typeFullName>
@@ -454,7 +454,7 @@
   <TypeDate>
     <guid>ad403e0e70e50cf4bacfad2137ac72ba</guid>
     <fileName>Assets/Scripts/Enemies/State Machine/Entity.cs</fileName>
-    <timeStamp>2021-03-07T15:40:16.3001583-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Entity</string>
     </typeFullName>
@@ -463,7 +463,7 @@
   <TypeDate>
     <guid>5ab9296533c4b5d43a639a8c7316038c</guid>
     <fileName>Assets/Scripts/Enemies/State Machine/FiniteStateMachine.cs</fileName>
-    <timeStamp>2020-08-25T18:24:47.7051007-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>FiniteStateMachine</string>
     </typeFullName>
@@ -472,7 +472,7 @@
   <TypeDate>
     <guid>dc41b80d86f9c914c89bd36606d6e1bf</guid>
     <fileName>Assets/Scripts/Enemies/State Machine/State.cs</fileName>
-    <timeStamp>2021-02-11T20:42:24.2447034-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>State</string>
     </typeFullName>
@@ -481,7 +481,7 @@
   <TypeDate>
     <guid>36720975c1e8a0f419bcb97f142cdb41</guid>
     <fileName>Assets/Scripts/Enemies/States/AttackState.cs</fileName>
-    <timeStamp>2021-02-10T18:41:33.4301226-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>AttackState</string>
     </typeFullName>
@@ -490,7 +490,7 @@
   <TypeDate>
     <guid>ebed3c33832217a478980459fd237a93</guid>
     <fileName>Assets/Scripts/Enemies/States/ChasePlayerState.cs</fileName>
-    <timeStamp>2021-02-02T12:43:16.7091477-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>ChasePlayerState</string>
     </typeFullName>
@@ -499,7 +499,7 @@
   <TypeDate>
     <guid>d01def2ababe5d8489c271be6bcf4ced</guid>
     <fileName>Assets/Scripts/Enemies/States/DieState.cs</fileName>
-    <timeStamp>2021-02-13T15:54:28.0461721-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>DieState</string>
       <string>DieState+OnDieState</string>
@@ -509,7 +509,7 @@
   <TypeDate>
     <guid>f56cd6a124ac01f4c96d403e2c7b9880</guid>
     <fileName>Assets/Scripts/Enemies/States/IdleState.cs</fileName>
-    <timeStamp>2020-08-25T18:24:47.7129133-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>IdleState</string>
     </typeFullName>
@@ -518,7 +518,7 @@
   <TypeDate>
     <guid>ee81e82d19688a14caf7dc590822f3a1</guid>
     <fileName>Assets/Scripts/Enemies/States/TransitionState.cs</fileName>
-    <timeStamp>2021-02-13T16:16:48.062612-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>TransitionState</string>
     </typeFullName>
@@ -527,7 +527,7 @@
   <TypeDate>
     <guid>d8c4e88b39ccc314bb06245e566bd11f</guid>
     <fileName>Assets/Scripts/Enemies/States/WalkState.cs</fileName>
-    <timeStamp>2021-02-02T12:45:43.7646734-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>WalkState</string>
     </typeFullName>
@@ -536,7 +536,7 @@
   <TypeDate>
     <guid>674ccbc9b579eee43a13da8fff87a3b2</guid>
     <fileName>Assets/Scripts/Enemies/States/Data/Data_ChasePlayerState.cs</fileName>
-    <timeStamp>2020-08-25T18:24:47.7090078-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Data_ChasePlayerState</string>
     </typeFullName>
@@ -545,7 +545,7 @@
   <TypeDate>
     <guid>f2a36a2637c1fe1409fb7c282ddde759</guid>
     <fileName>Assets/Scripts/Enemies/States/Data/Data_Entity.cs</fileName>
-    <timeStamp>2021-02-11T22:14:59.9370184-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Data_Entity</string>
     </typeFullName>
@@ -554,7 +554,7 @@
   <TypeDate>
     <guid>f3512f52a0475d9439099a8b3083f8bc</guid>
     <fileName>Assets/Scripts/Enemies/States/Data/Data_IdleState.cs</fileName>
-    <timeStamp>2020-08-25T18:24:47.710961-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Data_IdleState</string>
     </typeFullName>
@@ -563,7 +563,7 @@
   <TypeDate>
     <guid>aaea2420877e66d4ba37ac830f7c5508</guid>
     <fileName>Assets/Scripts/Enemies/States/Data/Data_WalkState.cs</fileName>
-    <timeStamp>2020-08-25T18:24:47.710961-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Data_WalkState</string>
     </typeFullName>
@@ -572,7 +572,7 @@
   <TypeDate>
     <guid>2c2c9f21ad5c3584daefac56caefcfad</guid>
     <fileName>Assets/Scripts/GameMaster/AbilityManager.cs</fileName>
-    <timeStamp>2020-11-12T04:23:08.5467912-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>AbilityManager</string>
     </typeFullName>
@@ -581,7 +581,7 @@
   <TypeDate>
     <guid>86d4ae9e7340bf54aaa72d54b06e8591</guid>
     <fileName>Assets/Scripts/GameMaster/DialogueManager.cs</fileName>
-    <timeStamp>2020-10-31T22:22:00.7103782-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>DialogueManager</string>
     </typeFullName>
@@ -590,7 +590,7 @@
   <TypeDate>
     <guid>645ef81a6627e3d40b1a837cc93c36c3</guid>
     <fileName>Assets/Scripts/GameMaster/EquipmentManager.cs</fileName>
-    <timeStamp>2021-03-13T18:02:04.8737163-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>EquipmentManager</string>
     </typeFullName>
@@ -599,7 +599,7 @@
   <TypeDate>
     <guid>d51aca9af817535428655274782feeec</guid>
     <fileName>Assets/Scripts/GameMaster/GameMaster.cs</fileName>
-    <timeStamp>2021-06-02T02:23:45.7452709-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>GameMaster</string>
       <string>GameMaster+OnPlayerLevelUp</string>
@@ -609,7 +609,7 @@
   <TypeDate>
     <guid>6a33489d1ae613544a409cfdfa2e8d12</guid>
     <fileName>Assets/Scripts/GameMaster/InventoryManager.cs</fileName>
-    <timeStamp>2021-06-07T12:31:45.0137733-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>InventoryManager</string>
       <string>InventoryManager+OnInventoryChanged</string>
@@ -619,7 +619,7 @@
   <TypeDate>
     <guid>b39e1a26dc206fc4bbd259e7edf984c9</guid>
     <fileName>Assets/Scripts/GameMaster/ItemDatabase.cs</fileName>
-    <timeStamp>2020-11-17T17:21:55.8035376-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>ItemDatabase</string>
     </typeFullName>
@@ -628,7 +628,7 @@
   <TypeDate>
     <guid>e17761eb7efef3446a0aa02b5519f1b0</guid>
     <fileName>Assets/Scripts/GameMaster/SaveLoadSystem.cs</fileName>
-    <timeStamp>2021-01-25T20:17:24.0417321-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>SaveLoadSystem</string>
       <string>SavedData</string>
@@ -638,7 +638,7 @@
   <TypeDate>
     <guid>07bb01cf4f7fa714698808544bcff7e5</guid>
     <fileName>Assets/Scripts/GameMaster/StartManager.cs</fileName>
-    <timeStamp>2021-06-10T12:33:39.3448041-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>StartManager</string>
       <string>StartManager+OnSaveSystem</string>
@@ -649,7 +649,7 @@
   <TypeDate>
     <guid>4125253e931cb84469e0d7f13e74d955</guid>
     <fileName>Assets/Scripts/GameMaster/TooltipManager.cs</fileName>
-    <timeStamp>2021-06-05T10:34:33.6406884-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>TooltipManager</string>
       <string>TooltipManager+ToolTipTimer</string>
@@ -659,7 +659,7 @@
   <TypeDate>
     <guid>53c60d180d38fca46a7fc6b34bca6680</guid>
     <fileName>Assets/Scripts/GameMaster/UIManager.cs</fileName>
-    <timeStamp>2021-02-01T15:34:03.9023212-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>UIManager</string>
       <string>UIManager+OnUITriggered</string>
@@ -669,7 +669,7 @@
   <TypeDate>
     <guid>5ce677e587ef36a4997e8433ce2ae61f</guid>
     <fileName>Assets/Scripts/Inventory/EquipmentSlot.cs</fileName>
-    <timeStamp>2020-12-04T21:36:15.3897338-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>EquipmentSlot</string>
     </typeFullName>
@@ -678,7 +678,7 @@
   <TypeDate>
     <guid>13febd6f7c01a5148b68eb687c7fa707</guid>
     <fileName>Assets/Scripts/Inventory/Garbage.cs</fileName>
-    <timeStamp>2021-01-02T20:30:02.4021761-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Garbage</string>
     </typeFullName>
@@ -687,7 +687,7 @@
   <TypeDate>
     <guid>aae00d5eae261ff4f9f8b6af3a67909c</guid>
     <fileName>Assets/Scripts/Inventory/InventorySlot.cs</fileName>
-    <timeStamp>2021-06-07T12:30:20.0704933-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>InventorySlot</string>
     </typeFullName>
@@ -696,7 +696,7 @@
   <TypeDate>
     <guid>eba12ab37f2c6ec4c96cda27011fdbe2</guid>
     <fileName>Assets/Scripts/Items/Equipment.cs</fileName>
-    <timeStamp>2021-06-07T12:36:57.0621521-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Equipment</string>
     </typeFullName>
@@ -705,7 +705,7 @@
   <TypeDate>
     <guid>0ef04e7ed9f60c94494497d98c233863</guid>
     <fileName>Assets/Scripts/Items/Item.cs</fileName>
-    <timeStamp>2021-03-11T12:54:27.3506925-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Item</string>
       <string>ItemType</string>
@@ -716,7 +716,7 @@
   <TypeDate>
     <guid>372f2db7b1913a74f979362bea7567b4</guid>
     <fileName>Assets/Scripts/Items/Potion.cs</fileName>
-    <timeStamp>2021-06-07T12:35:43.3508696-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Potion</string>
     </typeFullName>
@@ -725,7 +725,7 @@
   <TypeDate>
     <guid>75be0b896e72a2345a4771deb996d7f4</guid>
     <fileName>Assets/Scripts/NPC/NPC.cs</fileName>
-    <timeStamp>2020-11-21T08:06:37.6443799-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>NPC</string>
     </typeFullName>
@@ -734,7 +734,7 @@
   <TypeDate>
     <guid>f5f471e25f7d28740be9184ab7aa4e0f</guid>
     <fileName>Assets/Scripts/NPC/StoreNpc.cs</fileName>
-    <timeStamp>2021-06-03T06:36:42.9292947-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>StoreNpc</string>
     </typeFullName>
@@ -743,7 +743,7 @@
   <TypeDate>
     <guid>c4287e241cb6a1d46ac8fe677edc3e71</guid>
     <fileName>Assets/Scripts/Player/MageController.cs</fileName>
-    <timeStamp>2021-06-07T12:35:33.8141229-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>MageController</string>
     </typeFullName>
@@ -752,7 +752,7 @@
   <TypeDate>
     <guid>f826d8e44d9bc224f959d882eab07b01</guid>
     <fileName>Assets/Scripts/Player/PlayerStats.cs</fileName>
-    <timeStamp>2021-06-05T10:37:30.6101916-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>PlayerStats</string>
     </typeFullName>
@@ -761,7 +761,7 @@
   <TypeDate>
     <guid>b1d749a80788af54780eb4ae0713eb43</guid>
     <fileName>Assets/Scripts/Quest/Quest.cs</fileName>
-    <timeStamp>2021-06-02T03:24:58.2117933-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Quest</string>
     </typeFullName>
@@ -770,7 +770,7 @@
   <TypeDate>
     <guid>9ca41582707eb1745a83f2eecfffa592</guid>
     <fileName>Assets/Scripts/Quest/QuestGiver.cs</fileName>
-    <timeStamp>2021-06-03T06:20:05.8659108-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>QuestGiver</string>
     </typeFullName>
@@ -779,7 +779,7 @@
   <TypeDate>
     <guid>26e0c8997a8f1054e958714d591ea207</guid>
     <fileName>Assets/Scripts/Quest/QuestGoal.cs</fileName>
-    <timeStamp>2020-11-16T21:43:48.3627587-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>QuestGoal</string>
     </typeFullName>
@@ -788,7 +788,7 @@
   <TypeDate>
     <guid>1a502dfd87f3fbb4fb60535b4a6aad23</guid>
     <fileName>Assets/Scripts/UI/AbilityPage.cs</fileName>
-    <timeStamp>2021-02-27T06:43:41.0149189-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>AbilityPage</string>
     </typeFullName>
@@ -797,7 +797,7 @@
   <TypeDate>
     <guid>57ef9a5984fc3344c847ad88870db02f</guid>
     <fileName>Assets/Scripts/UI/AbilityPanel.cs</fileName>
-    <timeStamp>2020-12-29T23:30:58.0442891-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>AbilityPanel</string>
     </typeFullName>
@@ -806,7 +806,7 @@
   <TypeDate>
     <guid>679522507d6de5347bd66e5241c726aa</guid>
     <fileName>Assets/Scripts/UI/CharacterInfoUI.cs</fileName>
-    <timeStamp>2021-06-02T01:07:15.4040686-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>CharacterInfoUI</string>
     </typeFullName>
@@ -815,7 +815,7 @@
   <TypeDate>
     <guid>ae0be473681d3354d89983b7c4804731</guid>
     <fileName>Assets/Scripts/UI/Hotkey.cs</fileName>
-    <timeStamp>2021-06-05T10:29:11.3779938-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Hotkey</string>
     </typeFullName>
@@ -824,7 +824,7 @@
   <TypeDate>
     <guid>15d08ce4079d46942aee82ac61c6a098</guid>
     <fileName>Assets/Scripts/UI/HotkeyBar.cs</fileName>
-    <timeStamp>2020-12-29T22:49:18.6790086-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>HotkeyBar</string>
       <string>HotkeyBar+OnHotkeyBarUpdated</string>
@@ -834,7 +834,7 @@
   <TypeDate>
     <guid>2661a9e6e4077824f8dcc734898d6810</guid>
     <fileName>Assets/Scripts/UI/InventoryUI.cs</fileName>
-    <timeStamp>2021-06-02T01:31:31.6753227-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>InventoryUI</string>
     </typeFullName>
@@ -843,7 +843,7 @@
   <TypeDate>
     <guid>1045ca1823649a14587d3578be61421a</guid>
     <fileName>Assets/Scripts/UI/ItemSlot.cs</fileName>
-    <timeStamp>2021-06-03T06:39:17.6130477-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>ItemSlot</string>
     </typeFullName>
@@ -852,7 +852,7 @@
   <TypeDate>
     <guid>4144c4667a4694b4689d4d2b0ab829cf</guid>
     <fileName>Assets/Scripts/UI/MenuButton.cs</fileName>
-    <timeStamp>2021-06-10T11:13:21.0004339-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>MenuButton</string>
     </typeFullName>
@@ -861,7 +861,7 @@
   <TypeDate>
     <guid>d99cbe55973e57e4381166ee73058824</guid>
     <fileName>Assets/Scripts/UI/MobName.cs</fileName>
-    <timeStamp>2021-03-03T05:37:03.4067673-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>MobName</string>
     </typeFullName>
@@ -870,7 +870,7 @@
   <TypeDate>
     <guid>6d19f931d108375468dd965642ec4c3d</guid>
     <fileName>Assets/Scripts/UI/PauseMenu.cs</fileName>
-    <timeStamp>2021-06-10T11:17:05.2632429-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>PauseMenu</string>
     </typeFullName>
@@ -879,7 +879,7 @@
   <TypeDate>
     <guid>6187a5174caf3a640a7838d1b89509e6</guid>
     <fileName>Assets/Scripts/UI/PlayerInfoUI.cs</fileName>
-    <timeStamp>2021-06-05T10:26:05.5480469-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>PlayerInfoUI</string>
     </typeFullName>
@@ -888,7 +888,7 @@
   <TypeDate>
     <guid>bf3b29fbd70d7ec49838df6681dabf1e</guid>
     <fileName>Assets/Scripts/UI/QuestPanelUI.cs</fileName>
-    <timeStamp>2021-06-03T06:31:45.1938434-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>QuestPanelUI</string>
     </typeFullName>
@@ -897,7 +897,7 @@
   <TypeDate>
     <guid>38a60417f6f59334482628a5872d8026</guid>
     <fileName>Assets/Scripts/UI/RotateTowardsCamera.cs</fileName>
-    <timeStamp>2021-03-05T07:22:11.1186882-05:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>RotateTowardsCamera</string>
     </typeFullName>
@@ -906,7 +906,7 @@
   <TypeDate>
     <guid>892e46e3cf878034ebad60490026c74a</guid>
     <fileName>Assets/Scripts/UI/Store.cs</fileName>
-    <timeStamp>2021-06-03T06:40:46.9128695-04:00</timeStamp>
+    <timeStamp>2021-06-13T12:05:35-04:00</timeStamp>
     <typeFullName>
       <string>Store</string>
     </typeFullName>

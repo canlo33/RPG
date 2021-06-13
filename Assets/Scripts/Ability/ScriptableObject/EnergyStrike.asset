@@ -15,7 +15,7 @@ MonoBehaviour:
   abilityName: Energy Strike
   abilityPrefab: {fileID: 1334228333180440012, guid: 611d968c9718c0846a9c842267d80313,
     type: 3}
-  icon: {fileID: 21300000, guid: 5bed1ddcb43a7934e914fd776291805e, type: 3}
+  icon: {fileID: 21300000, guid: 027ba43683e45454dbc5ab4c37081e50, type: 3}
   abilityAudio: {fileID: 8300000, guid: 1bc0b0c6dd3a1be47ad6c0345568844b, type: 3}
   abilityLevel: 2
   description: Creates three electric balls and deals significant damage to the enemy.
