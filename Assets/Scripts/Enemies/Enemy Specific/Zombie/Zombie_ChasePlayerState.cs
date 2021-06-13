@@ -24,20 +24,16 @@ public class Zombie_ChasePlayerState : ChasePlayerState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(zombie.dieState);
+        if (isEnemyDead)
+            stateMachine.ChangeState(zombie.dieState);
+        else if (isPlayerInAttackRange)
+            stateMachine.ChangeState(zombie.attackState);
+        else if (!isPlayerInMaxAgroRange && !isEnraged)
+            entity.rb.velocity = Vector3.zero;
     }
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        if (isPlayerInAttackRange)
-        {
-            stateMachine.ChangeState(zombie.attackState);
-        }
-        else if (!isPlayerInMaxAgroRange)
-        {
-            entity.rb.velocity = Vector3.zero;
-            stateMachine.ChangeState(zombie.idleState);
-        }
-        
+
     }
 }

@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Start Menu.unity
+    guid: 59119ce820340564eaf6ff2fb767e508
+  - enabled: 1
+    path: Assets/Scenes/Roan Town.unity
+    guid: 84e3fa1292b39eb4b85b42f5baeff4de
   m_configObjects: {}

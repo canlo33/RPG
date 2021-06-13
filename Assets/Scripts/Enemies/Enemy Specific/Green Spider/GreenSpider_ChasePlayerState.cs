@@ -28,21 +28,19 @@ public class GreenSpider_ChasePlayerState : ChasePlayerState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(greenSpider.dieState);
+        if (isEnemyDead)
+            stateMachine.ChangeState(greenSpider.dieState);
+        else if (isPlayerInAttackRange)
+            stateMachine.ChangeState(greenSpider.attackState);
+        if (!isPlayerInMaxAgroRange && !entity.isEnraged)
+        {
+            entity.rb.velocity = Vector3.zero;
+            stateMachine.ChangeState(greenSpider.walkState);
+        }
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        if (isPlayerInAttackRange)
-        {
-            stateMachine.ChangeState(greenSpider.attackState);
-        }
-        else if (!isPlayerInMaxAgroRange)
-        {
-            entity.rb.velocity = Vector3.zero;
-            stateMachine.ChangeState(greenSpider.idleState);
-        }
-
     }
 }

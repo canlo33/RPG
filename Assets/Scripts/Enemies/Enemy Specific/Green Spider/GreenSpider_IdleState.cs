@@ -28,19 +28,19 @@ public class GreenSpider_IdleState : IdleState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(greenSpider.dieState);
-        if (isIdleTimeOver)
-        {
-            stateMachine.ChangeState(greenSpider.walkState);
-        }
-        else if (isPlayerInMinAgroRange)
-        {
+        if (isEnemyDead)
+            stateMachine.ChangeState(greenSpider.dieState);
+        if (isEnraged && !isEnemyDead)
             stateMachine.ChangeState(greenSpider.chasePlayerState);
-        }
+        if (isIdleTimeOver)
+            stateMachine.ChangeState(greenSpider.walkState);
+        else if (isPlayerInMinAgroRange)
+            stateMachine.ChangeState(greenSpider.chasePlayerState);
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
+
     }
 }

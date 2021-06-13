@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 30ac1880c0c597647917fb9b43203a12
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 77457145437977130
+    second: Jewelry_0
+  - first:
+      213: 83807112660430937
+    second: Jewelry_1
+  - first:
+      213: 481351952589351511
+    second: Jewelry_2
+  - first:
+      213: -1488407679497184394
+    second: Jewelry_3
+  - first:
+      213: 1919457100496327687
+    second: Jewelry_4
+  - first:
+      213: -788311544848416245
+    second: Jewelry_5
+  - first:
+      213: -5840707045121968587
+    second: Jewelry_6
+  - first:
+      213: -5982470276915118385
+    second: Jewelry_7
+  - first:
+      213: -5168703726192340309
+    second: Jewelry_8
+  - first:
+      213: -1516856491372522928
+    second: Jewelry_9
+  - first:
+      213: 6055100915144632438
+    second: Jewelry_10
+  - first:
+      213: -1748086016585653915
+    second: Jewelry_11
+  - first:
+      213: -5878929121107648650
+    second: Jewelry_12
+  - first:
+      213: 491514507171955764
+    second: Jewelry_13
+  - first:
+      213: -9216438047155839802
+    second: Jewelry_14
+  - first:
+      213: -4133607710369699278
+    second: Jewelry_15
+  - first:
+      213: 2759240772225771104
+    second: Jewelry_16
+  - first:
+      213: 8220699496762449747
+    second: Jewelry_17
+  - first:
+      213: 373971512617516156
+    second: Jewelry_18
+  - first:
+      213: 307134455398837645
+    second: Jewelry_19
+  - first:
+      213: -7918039250051045380
+    second: Jewelry_20
+  - first:
+      213: -2328026201985941702
+    second: Jewelry_21
+  - first:
+      213: -6707303784855453071
+    second: Jewelry_22
+  - first:
+      213: 8135083555806356384
+    second: Jewelry_23
+  - first:
+      213: 3315761919637562673
+    second: Jewelry_24
+  - first:
+      213: -2453487135983680907
+    second: Jewelry_25
+  - first:
+      213: 122959557482496793
+    second: Jewelry_26
+  - first:
+      213: -1914782613926905019
+    second: Jewelry_27
+  - first:
+      213: 559412650801050366
+    second: Jewelry_28
+  - first:
+      213: -2670601196869058131
+    second: Jewelry_29
+  - first:
+      213: -2325945267589908228
+    second: Jewelry_30
+  - first:
+      213: -4596127916189665146
+    second: Jewelry_31
+  - first:
+      213: -6177745485326996160
+    second: Jewelry_32
+  - first:
+      213: 1548931458418112400
+    second: Jewelry_33
+  - first:
+      213: 3046220160446028364
+    second: Jewelry_34
+  - first:
+      213: 2234859532833523212
+    second: Jewelry_35
+  - first:
+      213: -2869974455009624339
+    second: Jewelry_36
+  - first:
+      213: -6599528772864159934
+    second: Jewelry_37
+  - first:
+      213: -8320003261947851580
+    second: Jewelry_38
+  - first:
+      213: 7218396863803748869
+    second: Jewelry_39
+  - first:
+      213: -7903086211090504526
+    second: Jewelry_40
+  - first:
+      213: 5421768180651607617
+    second: Jewelry_41
+  - first:
+      213: -7367281172769672665
+    second: Jewelry_42
+  - first:
+      213: -8624994695824704441
+    second: Jewelry_43
+  - first:
+      213: -2546754580808354893
+    second: Jewelry_44
+  - first:
+      213: 2625202584702153018
+    second: Jewelry_45
+  - first:
+      213: 9164766490763004821
+    second: Jewelry_46
+  - first:
+      213: 4605636144534820142
+    second: Jewelry_47
+  - first:
+      213: -7693324984822768083
+    second: Jewelry_48
+  - first:
+      213: 7382546917852220538
+    second: Jewelry_49
+  - first:
+      213: -4745434375145974420
+    second: Jewelry_50
+  - first:
+      213: -6196548442552216881
+    second: Jewelry_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jewelry_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1415
+        width: 156
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a75270dde231100800000000000000
+      internalID: 77457145437977130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_1
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1416
+        width: 171
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950b6cbff1eb92100800000000000000
+      internalID: 83807112660430937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1416
+        width: 172
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a6702fc0b1ea600800000000000000
+      internalID: 481351952589351511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_3
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1408
+        width: 121
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b5b96f91d185be0800000000000000
+      internalID: -1488407679497184394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_4
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1432
+        width: 154
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7045fac201843aa10800000000000000
+      internalID: 1919457100496327687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_5
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1433
+        width: 173
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0288fc93da5f05f0800000000000000
+      internalID: -788311544848416245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_6
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1414
+        width: 188
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536326a43e3a1fea0800000000000000
+      internalID: -5840707045121968587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_7
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 1420
+        width: 159
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce3429cafef9fca0800000000000000
+      internalID: -5982470276915118385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1185
+        width: 105
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2511398531548b0800000000000000
+      internalID: -5168703726192340309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1182
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052de78ce0b03fae0800000000000000
+      internalID: -1516856491372522928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_10
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1167
+        width: 160
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678a656733a080450800000000000000
+      internalID: 6055100915144632438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_11
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1166
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561a598970d8db7e0800000000000000
+      internalID: -1748086016585653915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_12
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1174
+        width: 153
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fddacbc19d96ea0800000000000000
+      internalID: -5878929121107648650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_13
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1192
+        width: 76
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4348fe117d532d600800000000000000
+      internalID: 491514507171955764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_14
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1177
+        width: 94
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc91e84d62a81080800000000000000
+      internalID: -9216438047155839802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_15
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1188
+        width: 169
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a299e20b972a6c0800000000000000
+      internalID: -4133607710369699278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 950
+        width: 163
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066aa4efcdaca4620800000000000000
+      internalID: 2759240772225771104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 955
+        width: 198
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f12cd13aac51270800000000000000
+      internalID: 8220699496762449747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_18
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 942
+        width: 174
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cbeadfb1d903500800000000000000
+      internalID: 373971512617516156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_19
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 931
+        width: 194
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8da450f829234400800000000000000
+      internalID: 307134455398837645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_20
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 935
+        width: 131
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf76b1fe0497d1290800000000000000
+      internalID: -7918039250051045380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_21
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 937
+        width: 167
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f73d2f08031bfd0800000000000000
+      internalID: -2328026201985941702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_22
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 931
+        width: 145
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172ce079ebedae2a0800000000000000
+      internalID: -6707303784855453071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_23
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 955
+        width: 125
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3a5f9746f95e070800000000000000
+      internalID: 8135083555806356384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 673
+        width: 147
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135a3c3f5e3f30e20800000000000000
+      internalID: 3315761919637562673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 676
+        width: 130
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572c3bee27673fdd0800000000000000
+      internalID: -2453487135983680907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_26
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 707
+        width: 200
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913cb79e017d4b100800000000000000
+      internalID: 122959557482496793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_27
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 687
+        width: 133
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bfaca8b535d65e0800000000000000
+      internalID: -1914782613926905019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_28
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 697
+        width: 128
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef23bdd87de63c700800000000000000
+      internalID: 559412650801050366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_29
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 688
+        width: 106
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da103e36c5e10fad0800000000000000
+      internalID: -2670601196869058131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_30
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 690
+        width: 118
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf87d4e3a1598bfd0800000000000000
+      internalID: -2325945267589908228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_31
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 705
+        width: 165
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6883245f2064730c0800000000000000
+      internalID: -4596127916189665146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_32
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 459
+        width: 161
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04daf42563d344aa0800000000000000
+      internalID: -6177745485326996160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 483
+        width: 163
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097707074f8ee7510800000000000000
+      internalID: 1548931458418112400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_34
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 466
+        width: 89
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ad40ba819564a20800000000000000
+      internalID: 3046220160446028364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_35
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 479
+        width: 113
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06007187e0d30f10800000000000000
+      internalID: 2234859532833523212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_36
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 472
+        width: 173
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deeb4be507dcb28d0800000000000000
+      internalID: -2869974455009624339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_37
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 436
+        width: 165
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f46700c83c964a0800000000000000
+      internalID: -6599528772864159934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_38
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 461
+        width: 184
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccc1815d19698c80800000000000000
+      internalID: -8320003261947851580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_39
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 457
+        width: 186
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502f0d2f3b5ec2460800000000000000
+      internalID: 7218396863803748869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 231
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4a9ae96f8925290800000000000000
+      internalID: -7903086211090504526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_41
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 264
+        width: 206
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146414e3f6dfd3b40800000000000000
+      internalID: 5421768180651607617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_42
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 228
+        width: 96
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722f3a09ec822c990800000000000000
+      internalID: -7367281172769672665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_43
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 225
+        width: 123
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c7db5750ddd4880800000000000000
+      internalID: -8624994695824704441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_44
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 207
+        width: 180
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3b1d8b33c18acd0800000000000000
+      internalID: -2546754580808354893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_45
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 228
+        width: 153
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31fb9487d79e6420800000000000000
+      internalID: 2625202584702153018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_46
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 227
+        width: 177
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b055bf09acf2f70800000000000000
+      internalID: 9164766490763004821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_47
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 237
+        width: 176
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2592b7fba18aef30800000000000000
+      internalID: 4605636144534820142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 181
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e5002ffa1db3590800000000000000
+      internalID: -7693324984822768083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_49
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 20
+        width: 211
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c8c30be43147660800000000000000
+      internalID: 7382546917852220538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_50
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 30
+        width: 180
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c651f740494d42eb0800000000000000
+      internalID: -4745434375145974420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jewelry_51
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 13
+        width: 135
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2dc20b500710aa0800000000000000
+      internalID: -6196548442552216881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

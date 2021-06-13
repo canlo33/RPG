@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba12ab37f2c6ec4c96cda27011fdbe2, type: 3}
+  m_Name: Ring of Magic
+  m_EditorClassIdentifier: 
+  name: Ring of Magic
+  description: This ring once owned by the legendary sorcerer Anka. Its said to increase
+    user's magic power.
+  icon: {fileID: 21300000, guid: 8f40093e2f533404db72b02d941c7b73, type: 2}
+  stackable: 0
+  amount: 1
+  itemType: 4
+  itemRarity: 2
+  sellPrice: 150
+  itemLevel: 1
+  attack: 25
+  defense: 25
+  health: 85
+  mana: 135

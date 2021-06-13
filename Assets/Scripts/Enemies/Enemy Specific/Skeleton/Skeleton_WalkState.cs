@@ -24,28 +24,21 @@ public class Skeleton_WalkState : WalkState
     {
         base.Exit();
     }
-
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+        if (isEnemyDead)
+            stateMachine.ChangeState(skeleton.dieState);
+        else if (isEnraged)
+            stateMachine.ChangeState(skeleton.chasePlayerState);
+        else if (isPlayerInMinAgroRange && !isPlayerDead)
+            stateMachine.ChangeState(skeleton.chasePlayerState);
+        else if (Vector3.Distance(entity.transform.position, patrolPoint) <= 0.25f)
+            stateMachine.ChangeState(skeleton.idleState);
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        EnemyHasDied(skeleton.dieState);
-        if (isDetectingWall || !isDetectingLedge)
-        {
-            stateMachine.ChangeState(skeleton.idleState);
-        }
-        else if (isPlayerInMinAgroRange)
-        {
-            stateMachine.ChangeState(skeleton.chasePlayerState);
-        }
-
-        else if (Vector3.Distance(entity.transform.position, patrolPoint) <= 0.3f)
-        {
-            stateMachine.ChangeState(skeleton.idleState);
-        }
     }
 }

@@ -14,7 +14,6 @@ public class ChasePlayerState : State
     public override void BoolChecks()
     {
         base.BoolChecks();
-
     }
 
     public override void Enter()
@@ -30,13 +29,13 @@ public class ChasePlayerState : State
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+        if (Time.time >= startTime + 5f)
+            entity.isEnraged = false;
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
         entity.transform.LookAt(new Vector3(entity.player.position.x, entity.transform.position.y, entity.player.position.z));
         entity.GoTo(stateData.movementSpeed);
-
     }
 }

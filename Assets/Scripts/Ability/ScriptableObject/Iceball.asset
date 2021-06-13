@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1722df4e1edc3a8418adb8be915e0632, type: 3}
+  m_Name: Iceball
+  m_EditorClassIdentifier: 
+  abilityName: Iceball
+  abilityPrefab: {fileID: 8666934830389965900, guid: 96a2697fa854fd646944656c8f857797,
+    type: 3}
+  icon: {fileID: 21300000, guid: de0eade68b6365f4680da44e68ba10cf, type: 3}
+  abilityAudio: {fileID: 8300000, guid: ad949d2d38f33af4b87a01837c268540, type: 3}
+  abilityLevel: 1
+  description: Power ice ability that sends an iceball and explodes on contact.
+  abilityAnimation: Iceball
+  animationStartTimer: 1.35
+  abilityCost: 40
+  cdTimer: 5
+  isInCd: 0
+  isAoe: 0
+  isProjectile: 1
+  isOnTaget: 0
+  abilityRadius: 7
+  abilityRange: 10
+  particleSpeed: 15
+  baseDamage: 15
+  damageMultiplier: 1.2

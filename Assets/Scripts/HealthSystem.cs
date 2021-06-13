@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +9,6 @@ public class HealthSystem
     public int currentHealth;
     public bool isInvulrable = false;
 
-    
     public HealthSystem(int maxHealth)
     {
         this.maxHealth = maxHealth;
@@ -16,7 +16,7 @@ public class HealthSystem
     }
     public float GetHealthPercentage()
     {
-        return (float)currentHealth / maxHealth;
+        return (float)currentHealth / maxHealth * 100f;
     }
     public int GetHealth()
     {
@@ -25,16 +25,12 @@ public class HealthSystem
     public void Damage(int amount)
     {
         if (isInvulrable) return;
-
         currentHealth -= amount;
         if(currentHealth < 0)  currentHealth = 0;
-        
     }
     public void Heal(int amount)
     {
         currentHealth += amount;
         if(currentHealth > maxHealth) currentHealth = maxHealth;
     }
-
-
 }

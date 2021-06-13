@@ -18,6 +18,7 @@ public class WalkState : State
         base.Enter();
         patrolPoint = entity.Patrol();
         entity.transform.LookAt(patrolPoint);
+        entity.healthSystem.Heal(entity.healthSystem.maxHealth);
     }
 
     public override void Exit()

@@ -12,15 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a36a2637c1fe1409fb7c282ddde759, type: 3}
   m_Name: Zombie_EntityData
   m_EditorClassIdentifier: 
-  mobName: Please Name Me
+  mobName: Zombie
+  mobID: 1
   patrolRange: 5
   wallCheckDistance: 1
   ledgeCheckDistance: 0.2
   minAgroRange: 5
   maxAgroRange: 10
   attackRange: 2
-  attackDamage: 10
+  attackDamage: 20
   maxHealth: 100
+  expReward: 100
   ground:
     serializedVersion: 2
     m_Bits: 256

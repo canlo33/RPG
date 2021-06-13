@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class AttackState : State
 {
-    protected Data_AttackState stateData;
-    public AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName, Data_AttackState stateData) : base(stateMachine, entity, animationName)
+    public float damageTimer;
+    protected bool didAttack = false;
+    public AttackState(FiniteStateMachine stateMachine, Entity entity, string animationName) : base(stateMachine, entity, animationName)
     {
-        this.stateData = stateData;
+       
     }
-
     public override void BoolChecks()
     {
         base.BoolChecks();
@@ -18,6 +18,7 @@ public class AttackState : State
     public override void Enter()
     {
         base.Enter();
+        didAttack = false;
         entity.transform.LookAt(new Vector3(entity.player.position.x, entity.transform.position.y, entity.player.position.z));
     }
 
@@ -29,7 +30,6 @@ public class AttackState : State
     public override void LogicUpdate()
     {
         base.LogicUpdate();
- 
     }
 
     public override void PhysicsUpdate()

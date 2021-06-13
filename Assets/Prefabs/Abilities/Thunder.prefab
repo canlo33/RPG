@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4558174435420446484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4560513495082407202}
+  - component: {fileID: 4526374931752341436}
+  - component: {fileID: 6977066634009048727}
+  - component: {fileID: -7850700384271482247}
+  m_Layer: 0
+  m_Name: Thunder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4560513495082407202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558174435420446484}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 669.9, y: 10, z: 358.7907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &4526374931752341436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558174435420446484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9780aff71e30824fa3ed7c172220fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_makeObjs:
+  - {fileID: 1039775611433936, guid: 7d0a864664b476b4e837ca4f2f668f9a, type: 3}
+  - {fileID: 1112139426820256, guid: 9da55de867cc14b4985ad7471cadc152, type: 3}
+  m_movePos: {fileID: 0}
+  m_startDelay: 0
+  m_makeCount: 10
+  m_makeDelay: 0.1
+  m_randomPos: {x: 4, y: 0, z: 4}
+  m_randomRot: {x: 0, y: 0, z: 0}
+--- !u!114 &6977066634009048727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558174435420446484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea9375e4cad8a5428b117640e7af258, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTimer: 4
+--- !u!114 &-7850700384271482247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4558174435420446484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00c91f9f3f8cfb74a99885cc978c09b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isDmgOverTime: 0
+  ability: {fileID: 11400000, guid: 028df48214f8a9d4ab0aac9174d944b8, type: 2}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 2048
+  cdTimer: 0
+  repeatAmount: 1

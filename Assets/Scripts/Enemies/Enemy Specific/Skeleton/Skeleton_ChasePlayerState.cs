@@ -28,20 +28,22 @@ public class Skeleton_ChasePlayerState : ChasePlayerState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(skeleton.dieState);
-    }
-
-    public override void PhysicsUpdate()
-    {
-        base.PhysicsUpdate();
-        if (isPlayerInAttackRange)
+        if (isEnemyDead)
+        {
+            stateMachine.ChangeState(skeleton.dieState);
+        }
+        else if (isPlayerInAttackRange)
         {
             stateMachine.ChangeState(skeleton.attackState);
         }
-        else if (!isPlayerInMaxAgroRange)
+        if (!isPlayerInMaxAgroRange && !isEnraged)
         {
             entity.rb.velocity = Vector3.zero;
-            stateMachine.ChangeState(skeleton.idleState);
+            stateMachine.ChangeState(skeleton.walkState);
         }
+    }
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
     }
 }

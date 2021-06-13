@@ -12,7 +12,7 @@ public class Zombie_WalkState : WalkState
 
     public override void Enter()
     {
-        base.Enter();
+        base.Enter();     
 
     }
 
@@ -25,24 +25,16 @@ public class Zombie_WalkState : WalkState
     {
         base.LogicUpdate();
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        EnemyHasDied(zombie.dieState);
-        if (isDetectingWall || !isDetectingLedge)
-        {
-            stateMachine.ChangeState(zombie.idleState);
-        }
-        else if (isPlayerInMinAgroRange)
-        {
+        if (isEnemyDead)
+            stateMachine.ChangeState(zombie.dieState);
+        if (isEnraged && !isEnemyDead)
+            stateMachine.ChangeState(zombie.chasePlayerState);            
+        else if (isPlayerInMinAgroRange && !isPlayerDead)
             stateMachine.ChangeState(zombie.chasePlayerState);
-        }
         else if (Vector3.Distance(entity.transform.position, patrolPoint) <= 0.3f)
-        {
             stateMachine.ChangeState(zombie.idleState);
-        }
-    }
-      
-    
+    }       
 }

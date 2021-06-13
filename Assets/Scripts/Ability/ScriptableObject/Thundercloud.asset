@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1722df4e1edc3a8418adb8be915e0632, type: 3}
+  m_Name: Thundercloud
+  m_EditorClassIdentifier: 
+  abilityName: Thundercloud
+  abilityPrefab: {fileID: 4558174435420446484, guid: 131c5f3f434bd4249a498ff96c01d5ea,
+    type: 3}
+  icon: {fileID: 21300000, guid: fb877a3c29c56394b8a2040966f1ddf3, type: 3}
+  abilityAudio: {fileID: 8300000, guid: bba57db225394964187cd1d663ae70fa, type: 3}
+  abilityLevel: 3
+  description: Brings the rage of the clouds down onto the earth. Strikes lightning
+    down to an area.
+  abilityAnimation: Thunder
+  animationStartTimer: 1.17
+  abilityCost: 85
+  cdTimer: 10
+  isInCd: 1
+  isAoe: 1
+  isProjectile: 0
+  isOnTaget: 0
+  abilityRadius: 5
+  abilityRange: 20
+  particleSpeed: 7
+  baseDamage: 150
+  damageMultiplier: 2.5

@@ -28,9 +28,7 @@ public class Skeleton_DieState : DieState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(skeleton.dieState);
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();

@@ -9,33 +9,30 @@ public class Zombie_IdleState : IdleState
     {
         this.zombie = zombie;        
     }
-
     public override void Enter()
     {
         base.Enter();
     }
-
     public override void Exit()
     {
         base.Exit();
     }
-
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(zombie.dieState);
-        if (isIdleTimeOver)
-        {
-            stateMachine.ChangeState(zombie.walkState);
-        }
-        else if(isPlayerInMinAgroRange)
-        {
+        if (isEnemyDead)
+            stateMachine.ChangeState(zombie.dieState);
+        else if (isEnraged)
             stateMachine.ChangeState(zombie.chasePlayerState);
-        }
+        else if (isIdleTimeOver)
+            stateMachine.ChangeState(zombie.walkState);
+        else if (isPlayerInMinAgroRange)
+            stateMachine.ChangeState(zombie.chasePlayerState);
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
+
     }
 }

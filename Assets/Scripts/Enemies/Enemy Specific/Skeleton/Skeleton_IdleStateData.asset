@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3512f52a0475d9439099a8b3083f8bc, type: 3}
   m_Name: Skeleton_IdleStateData
   m_EditorClassIdentifier: 
-  minIdleDuration: 10
-  maxIdleDuration: 15
+  minIdleDuration: 3
+  maxIdleDuration: 6

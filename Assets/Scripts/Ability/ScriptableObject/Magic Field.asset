@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1722df4e1edc3a8418adb8be915e0632, type: 3}
+  m_Name: Magic Field
+  m_EditorClassIdentifier: 
+  abilityName: Magic Field
+  abilityPrefab: {fileID: 4274926741041598029, guid: 381eac43ce5268b428bfc421bb78a439,
+    type: 3}
+  icon: {fileID: 21300000, guid: afc05cf9c5f880343a42e25b26923fe5, type: 3}
+  abilityAudio: {fileID: 8300000, guid: fb59b6a1886a885418782a0ee25c089d, type: 3}
+  abilityLevel: 4
+  description: Creates a magic area that damages once every second, it lasts 2 seconds.
+  abilityAnimation: Magicfield
+  animationStartTimer: 1.07
+  abilityCost: 100
+  cdTimer: 13
+  isInCd: 1
+  isAoe: 1
+  isProjectile: 0
+  isOnTaget: 0
+  abilityRadius: 6
+  abilityRange: 20
+  particleSpeed: 7
+  baseDamage: 250
+  damageMultiplier: 3

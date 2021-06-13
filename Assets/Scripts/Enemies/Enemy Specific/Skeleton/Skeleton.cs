@@ -16,10 +16,6 @@ public class Skeleton : Entity
     private Data_WalkState walkStateData;
     [SerializeField]
     private Data_ChasePlayerState chasePlayerStateData;
-    [SerializeField]
-    public Data_AttackState attackStateData;
-
-
     public override void Start()
     {
         base.Start();
@@ -27,9 +23,9 @@ public class Skeleton : Entity
         walkState = new Skeleton_WalkState(stateMachine, this, "walk", walkStateData, this);
         chasePlayerState = new Skeleton_ChasePlayerState(stateMachine, this, "run", chasePlayerStateData, this);
         walkState = new Skeleton_WalkState(stateMachine, this, "walk", walkStateData, this);
-        attackState = new Skeleton_AttackState(stateMachine, this, "attack", attackStateData, this);
+        attackState = new Skeleton_AttackState(stateMachine, this, "attack", this);
         dieState = new Skeleton_DieState(stateMachine, this, "die", this);
-        stateMachine.Initialize(idleState);
-
+        respownState = idleState;
+        stateMachine.Initialize(walkState);
     }
 }

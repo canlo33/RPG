@@ -9,36 +9,30 @@ public class Skeleton_IdleState : IdleState
     {
         this.skeleton = skeleton;
     }
-
     public override void BoolChecks()
     {
         base.BoolChecks();
     }
-
     public override void Enter()
     {
         base.Enter();
     }
-
     public override void Exit()
     {
         base.Exit();
     }
-
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(skeleton.dieState);
-        if (isIdleTimeOver)
-        {
-            stateMachine.ChangeState(skeleton.walkState);
-        }
-        else if (isPlayerInMinAgroRange)
-        {
+        if (isEnemyDead)
+            stateMachine.ChangeState(skeleton.dieState);
+        if (isEnraged && !isEnemyDead)
             stateMachine.ChangeState(skeleton.chasePlayerState);
-        }
+        if (isIdleTimeOver)
+            stateMachine.ChangeState(skeleton.walkState);
+        else if (isPlayerInMinAgroRange)
+            stateMachine.ChangeState(skeleton.chasePlayerState);
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();

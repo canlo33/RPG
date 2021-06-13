@@ -16,9 +16,9 @@ MonoBehaviour:
   patrolRange: 5
   wallCheckDistance: 1
   ledgeCheckDistance: 0.2
-  minAgroRange: 9
+  minAgroRange: 7
   maxAgroRange: 15
-  attackRange: 5
+  attackRange: 2.5
   attackDamage: 10
   maxHealth: 100
   ground:

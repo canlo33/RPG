@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: Skeleton_EntityData
   m_EditorClassIdentifier: 
   mobName: Skeleton
+  mobID: 2
   patrolRange: 5
   wallCheckDistance: 1
   ledgeCheckDistance: 0.2
   minAgroRange: 5
   maxAgroRange: 10
   attackRange: 2
-  attackDamage: 10
-  maxHealth: 100
+  attackDamage: 35
+  maxHealth: 400
+  expReward: 135
   ground:
     serializedVersion: 2
     m_Bits: 256

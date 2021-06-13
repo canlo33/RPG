@@ -30,13 +30,6 @@ public class Zombie_DieState : DieState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(zombie.dieState);
-        if (Time.time >= startTime + entity.animator.GetCurrentAnimatorStateInfo(0).length)
-        {
-            entity.animator.enabled = false;
-            entity.GetComponent<Zombie>().enabled = false;
-            Object.Destroy(entity.gameObject,2f);
-        }
     }
 
     public override void PhysicsUpdate()

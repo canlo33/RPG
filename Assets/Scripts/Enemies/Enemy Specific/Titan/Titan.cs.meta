@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1fe2097d59336be4db138b722c6764d9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerStats: {instanceID: 0}
+  - entityData: {instanceID: 0}
+  - player: {instanceID: 0}
+  - idleStateData: {instanceID: 0}
+  - walkStateData: {instanceID: 0}
+  - chasePlayerStateData: {fileID: 11400000, guid: 4784fb53712d6524a8b0b1e23ec0f7ab,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

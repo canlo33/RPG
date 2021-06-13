@@ -28,24 +28,18 @@ public class GreenSpider_WalkState : WalkState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        EnemyHasDied(greenSpider.dieState);
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        if (isDetectingWall || !isDetectingLedge)
-        {
-            stateMachine.ChangeState(greenSpider.idleState);
-        }
-        else if (isPlayerInMinAgroRange)
-        {
-            stateMachine.ChangeState(greenSpider.chasePlayerState);
-        }
-
-        else if (Vector3.Distance(entity.transform.position, patrolPoint) <= 0.3f)
-        {
-            stateMachine.ChangeState(greenSpider.idleState);
-        }
+        if (isEnemyDead)        
+            stateMachine.ChangeState(greenSpider.dieState);        
+        if (isEnraged && !isEnemyDead)        
+            stateMachine.ChangeState(greenSpider.chasePlayerState);                
+        else if (isPlayerInMinAgroRange && !isPlayerDead)        
+            stateMachine.ChangeState(greenSpider.chasePlayerState);        
+        else if (Vector3.Distance(entity.transform.position, patrolPoint) <= 0.3f)        
+            stateMachine.ChangeState(greenSpider.idleState);        
     }
 }
